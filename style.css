@@ -1,0 +1,73 @@
+body {
+  background-image: url("https://img.freepik.com/free-psd/hand-drawn-pizza-illustration_23-2151630886.jpg?t=st=1739374154~exp=1739377754~hmac=95571403fc5582d907aaeff3191a8d436c995783c7c01cf8fdce1894d930c9f8&w=1060");
+  font-family: monospace;
+  background-size: cover;
+}
+
+.topbar {
+  background-color: #eb4034;
+  margin: 1%;
+  padding: 2%;
+  color: white;
+}
+
+.imagefunny{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2%
+}
+
+.imagepizza{
+    border-radius: 8%;
+    width: 100%;
+    padding: 7px;
+    background: #d1bbb8;
+}
+
+.imagepizza:hover{
+    background: #eb4034;
+    transition: 0.35s;
+}
+
+.pizzalink{
+    width: 15%;
+}
+
+.pizzaheader{
+    display: flex;
+    justify-content: center;
+}
+
+.pizzaheadertext{
+    font-size: 20px;
+    
+}
+
+.imagefunny2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+}
+
+.pizzalink2{
+    width: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.realbutton{
+  float: right;
+}
+
+.bottombar{
+  padding: 3%;
+  background-color: #eb4034;
+}
+
+.bottombartext{
+  text-align: center;
+  color: white;
+}
+
